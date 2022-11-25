@@ -1,6 +1,7 @@
 # Frontend Mentor - Sunnyside agency landing page
+link to the website - https://hemanath78.github.io/MFA-20221125/
 
-![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Sunnyside agency landing page coding challenge](./design/output.png)
 
 ## Welcome! 👋
 
