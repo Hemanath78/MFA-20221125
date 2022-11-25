@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+.header{
+    background-image: url("../images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1440px;
+    height: 800px;
+   
+}
+
+li {
+    list-style: none;
+}
+
+.header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+}
+
+.header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header nav ul li {
+    padding: 1em 1.5em 1.5em 1.5em;
+    font-family: 'Barlow', serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+}
+
+.header nav button {
+    text-transform: uppercase;
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    padding: 0 2em;
+    border: none;
+}
+
+.header .header-content {
+    margin-top: 4em;
+    width: 1455px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .header-content .header-title p {
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    letter-spacing: 0.2em;
+}
+
+.header .header-content .header-image-two {
+    margin-top: 4.5em;
+}
+
+.content_one {
+    display: flex;
+    flex-direction: row;
+    color: hsl(7, 99%, 70%);
+}
+
+.content_one .content-text {
+    width: 720px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_one .content-text .content-main {
+    width: 440px;
+}
+
+.content_one .content-text .content-main p {
+    padding-bottom: 1em;
+}
+
+.content_one .content-text .content-main .title {
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+.content_one .content-text .content-main .desc {
+    font-family: 'Barlow', serif;
+    color: hsl(210, 4%, 67%);
+    width: 450px;
+    line-height: 1.6em;
+    
+}
+
+.content_one .content-text .content-main .learn {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(212, 27%, 19%);
+    font-size: .8rem;
+    margin-top: 1em;
+    margin-left: .5em;
+    text-decoration: underline;
+    text-decoration-color: hsl(51, 100%, 49%);
+
+}
+
+.apple-contnet {
+    display: flex;
+    flex-direction: row;
+}
+
+.apple-contnet .apple-image-one {
+    position: relative;
+    text-align: center;
+}
+
+
+.center-text {
+    position: absolute;
+    top: 60%;
+    left: 37%;
+    color: hsl(167, 40%, 24%);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+  
+}
+
+.center-text-two {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    width: 370px;
+    font-family: 'Barlow', serif;
+    color: hsl(167, 40%, 24%);
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+
+
+.apple-contnet .apple-image-two {
+    position: relative;
+    text-align: center;
+}
+
+.center-text-one {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    color:  hsl(198, 62%, 26%);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+  
+}
+
+.center-text-two-second {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    width: 370px;
+    font-family: 'Barlow', serif;
+    color: hsl(167, 40%, 24%);
+    font-weight: 300;
+    line-height: 1.7em;
+}
